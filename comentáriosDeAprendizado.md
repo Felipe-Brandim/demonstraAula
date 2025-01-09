@@ -1,0 +1,1 @@
+Arquivos rc são um tipo especial de arquivo do tipo "Run Commands" e é uma convenção para scripts de inicialização. 
