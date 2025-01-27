@@ -20,3 +20,24 @@ editorconfig - É um configurador de editor, sendo então uma forma de padroniza
 o comando root = true serve para indicar aonde a leitura do arquivo deve parar. isso pq ele vasculha as pastas em busca de arquivos .editorconfig e permite que você tenha uma configuração para cada pasta por exemplo.
 
 [.] significa que ele vai aplicar a todo tipo de arquivo, mas é possível escolher padrões específicos pra linguagens especificas digitando[.js] por exemplo para arquivos javascript.
+
+npm install prettier -D (adiciona o prettier no package.jason como dependência de desenvolvimento)
+
+Status Pages do projeto até então:
+Vercel: https://www.vercel-status.com/
+AWS: https://health.aws.amazon.com/health/status
+GitHub: https://www.githubstatus.com/
+
+POC - Prova de conceito/Proff of concept
+
+Linha da simplicidade de código ideal:
+![alt text](image.png)
+
+Arquitetura de software não é sinônimo de organização de pastas.
+É possível implementar MVC e Clean Architecture dentro de uma mesma pasta, ou todos os códigos de todos os tipos de componentes no mesmo arquivo, isso porque separar códigos em arquivos e organizar em pastas não é o que define uma arquitetura de software. O que define é o escopo dos componentes, onde eles começam e terminam em conjunto com o tipo de interação entre eles. E cada arquitetura é uma tentativa de definir esse escopo e essas interações.
+
+TDD- Test Driven Development
+
+Jest - É um framework de testes automatizados, considerado simples de se usar e com foco em testar aplicações escritas em react, mas foi otimizado para outras línguas também.
+
+Ele tem como concorrentes o Mocha(serial), o AVA(paralelo),Playwright (testes end-to-end)
