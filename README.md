@@ -1,1 +1,1 @@
-Esse é um projeto pessoal, nele pretendo aperfeiçoar meus conhecimentos de programação para ao fim trazer a luz o "Sonho Felpudo".
+Esse é um projeto adaptado a partir do SF para demonstrações em sala.

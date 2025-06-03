@@ -7,17 +7,11 @@ const Container = styled.div`
   justify-content: center;
   align-items: center;
   height: 100vh;
-  background-color: #ff2c97;
+  background-color: #000;
 `;
 
 const Message = styled.h1`
-  color: white;
-  font-size: 3rem;
-  font-family: "Arial", sans-serif;
-`;
-
-const Message2 = styled.h1`
-  color: black;
+  color: #fff;
   font-size: 3rem;
   font-family: "Arial", sans-serif;
 `;
@@ -25,8 +19,7 @@ const Message2 = styled.h1`
 const Home = () => {
   return (
     <Container>
-      <Message>Ana,você é minha princesa e eu te amo!</Message>
-      <Message2>Aqui começa o desenvolvimento do Sonho Felpudo.</Message2>
+      <Message>Olá turma, é uma honra tê-los aqui.</Message>
     </Container>
   );
 };
