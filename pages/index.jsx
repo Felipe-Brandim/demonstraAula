@@ -19,7 +19,7 @@ const Message = styled.h1`
 const Home = () => {
   return (
     <Container>
-      <Message>Olá turma, é uma honra tê-los aqui.</Message>
+      <Message>Assim se aprende commits</Message>
     </Container>
   );
 };
