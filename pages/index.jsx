@@ -19,7 +19,7 @@ const Message = styled.h1`
 const Home = () => {
   return (
     <Container>
-      <Message>Olá turma 2025.1</Message>
+      <Message>Olá turma! vamos aprender Testes automatizados ?</Message>
     </Container>
   );
 };
